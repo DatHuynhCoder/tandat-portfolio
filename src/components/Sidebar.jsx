@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import UserPic from "../../public/images/myimg.jpg";
+import UserPic from "../assets/myimg.jpg";
 
 const Sidebar = () => {
   return (
@@ -7,8 +7,8 @@ const Sidebar = () => {
       <img src={UserPic} alt="My profile pic" className="rounded-full border-8 border-amber-200"/>
       <nav className="flex flex-col space-y-4 mt-8">
         <a href="#about" className="cursor-pointer text-2xl text-center">ABOUT</a>
-        <a href="#education" className="cursor-pointer text-2xl text-center">EDUCATION</a>
         <a href="#projects" className="cursor-pointer text-2xl text-center">PROJECTS</a>
+        <a href="#education" className="cursor-pointer text-2xl text-center">EDUCATION</a>
         <a href="#skills" className="cursor-pointer text-2xl text-center">SKILLS</a>
       </nav>
     </div>

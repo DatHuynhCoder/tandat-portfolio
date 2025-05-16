@@ -1,5 +1,5 @@
 import { FaAddressCard, FaMapMarkedAlt } from "react-icons/fa";
-import react_icon from '../../public/images/react_icon.png';
+import react_icon from '../assets/react_icon.png';
 import nodejs_icon from '../assets/nodejs_icon.png';
 import facebook_icon from '../assets/facebook_icon.png';
 import gmail_icon from '../assets/gmail_icon.png';
@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div className="mt-4 text-lg bg-green-300 p-2 rounded-3xl mb-2 ml-5">
         <p>Hi, welcome to my profile! 👋</p>
-        <p>I'm a passionate student dedicated to building fast and scalable web applications. I'm currently seeking an internship opportunity to gain hands-on experience in real-world software development.</p>
+        <p>I'm a <b>third-year student</b> dedicated to building fast and scalable web applications. I'm currently seeking an <b>internship opportunity</b> to gain hands-on experience in real-world software development. Aiming to become a <b>fulltime software engineer</b> within the next two years.</p>
         <p>I'm hardworking, approachable, and always enjoy a good conversation!</p>
       </div>
 
@@ -36,17 +36,17 @@ const About = () => {
       {/* Contact */}
       <p className="flex flex-row gap-3 items-center mb-2">
         <img src={gmail_icon} alt="gmail icon" className="w-6 h-6" />
-        <a href="mailto:htdat2004@gmail.com" className="underline text-2xl hover:text-red-950 underline-offset-6">htdat2004@gmail.com</a>
+        <a href="mailto:htdat2004@gmail.com" className="underline text-xl hover:text-red-950 underline-offset-6">htdat2004@gmail.com</a>
       </p>
 
       <p className="flex flex-row gap-3 items-center mb-2">
         <img src={facebook_icon} alt="facebook icon" className="w-6 h-6" />
-        <a href="https://www.facebook.com/huynh.tan.at.979563/" className="underline text-2xl hover:text-red-950 underline-offset-6">My Facebook</a>
+        <a href="https://www.facebook.com/huynh.tan.at.979563/" className="underline text-xl hover:text-red-950 underline-offset-6">My Facebook</a>
       </p>
 
       <p className="flex flex-row gap-3 items-center mb-2">
         <img src={github_icon} alt="facebook icon" className="w-6 h-6" />
-        <a href="https://github.com/DatHuynhCoder" className="underline text-2xl hover:text-red-950 underline-offset-6">My Github</a>
+        <a href="https://github.com/DatHuynhCoder" className="underline text-xl hover:text-red-950 underline-offset-6">My Github</a>
       </p>
 
       <p>

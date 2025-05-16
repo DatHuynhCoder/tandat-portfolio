@@ -10,8 +10,8 @@ export default function App() {
       <Sidebar />
       <div className="flex-17 overflow-y-scroll scroll-smooth p-6 space-y-20">
         <About />
-        <Education />
         <Projects />
+        <Education />
         <Skills />
       </div>
     </div>
