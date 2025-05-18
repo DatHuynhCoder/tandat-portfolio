@@ -1,2 +1,64 @@
 @import "tailwindcss";
 
+/* Add these styles to your CSS or index.css file */
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem; /* Adds padding when scrolling to section */
+}
+
+/* Make sure sections have proper padding */
+section {
+  padding-top: 2rem;
+}
+
+/* Add responsive styles for projects grid */
+@media (max-width: 640px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Add additional responsive utilities */
+@media (max-width: 768px) {
+  .text-resp-3xl {
+    font-size: 1.5rem !important;
+  }
+  
+  .text-resp-2xl {
+    font-size: 1.25rem !important;
+  }
+  
+  .text-resp-xl {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Transition styles for animation */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Scroll indicator style for active section */
+.scroll-indicator {
+  position: relative;
+}
+
+.scroll-indicator::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: #4ade80; /* green-400 */
+  bottom: -2px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.scroll-indicator.active::after {
+  width: 100%;
+}
+
