@@ -19,18 +19,18 @@ const About = () => {
       </div>
       <div className="mt-4 text-base md:text-lg bg-green-300 p-2 rounded-3xl mb-2 ml-0 md:ml-5">
         <p>Hi, welcome to my profile! 👋</p>
-        <p>I'm a <b>third-year student</b> dedicated to building fast and scalable web applications. I'm currently seeking an <b>internship opportunity</b> to gain hands-on experience in real-world software development. Aiming to become a <b>fulltime software engineer</b> within the next two years.</p>
+        <p>I'm a <b>fourth-year student</b> dedicated to building fast and scalable web applications. I'm currently seeking an <b>fresher opportunity</b> to gain hands-on experience in real-world software development. Aiming to become a <b>fulltime software engineer</b> within the next two years.</p>
         <p>I'm hardworking, approachable, and always enjoy a good conversation!</p>
       </div>
 
       <div className="flex flex-row gap-3 items-center mb-2">
         <img src={react_icon} alt="react-icon" className="w-6 h-6 md:w-8 md:h-8" />
-        <p className="text-lg md:text-2xl"><strong>Frontend: </strong> I have experience working with <strong>ReactJS, Redux, TailwindCSS, Bootstrap, Axios, Flowbite, React Router and other technologies</strong></p>
+        <p className="text-lg md:text-2xl"><strong>Frontend: </strong> I have experience working with <strong>ReactJS, Angular, Redux, TailwindCSS, Bootstrap, Axios, Flowbite, React Router and other technologies</strong></p>
       </div>
 
       <div className="flex flex-row gap-3 items-center mb-3">
         <img src={nodejs_icon} alt="react-icon" className="w-6 h-6 md:w-8 md:h-8" />
-        <p className="text-lg md:text-2xl"><strong>Backend: </strong> I have experience working with <strong>NodeJS, ExpressJS, MongoDB, MySQL, Cloudinary and other technologies</strong></p>
+        <p className="text-lg md:text-2xl"><strong>Backend: </strong> I have experience working with <strong>NestJS, NodeJS, ExpressJS, MongoDB, MySQL, Cloudinary and other technologies</strong></p>
       </div>
 
       {/* Contact */}

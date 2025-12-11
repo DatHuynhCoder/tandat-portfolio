@@ -1,6 +1,8 @@
 import storyforest from '../assets/storyforest.png'
 import napolizza from '../assets/napolizza.png'
 import winenglish from '../assets/WinEnglish.png'
+import floravnu from '../assets/floraVNU.png'
+import electronicmaster from '../assets/electronic_master.png'
 
 const Projects = () => {
   return (
@@ -9,6 +11,36 @@ const Projects = () => {
       <div className="text-xl md:text-2xl mb-3">Some of my latest projects:</div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="cursor-pointer relative group transition-all duration-300 hover:scale-105 z-10 hover:z-20">
+          <a href="https://floravnu.com/" target='_blank' rel="noreferrer">
+            <img
+              src={floravnu}
+              alt="Storyforest"
+              className="w-full h-[200px] object-cover rounded-md shadow-md"
+            />
+
+            <div className="absolute inset-0 bg-gray-800 bg-opacity-70 rounded-md opacity-0 group-hover:opacity-80 transition-opacity duration-300 flex flex-col justify-center p-3 text-white">
+              <h3 className="font-bold text-lg mb-1">FloraVNU</h3>
+              <p className="text-sm"> Flower shop website with product listings, category filters, shopping cart, and an integrated RAG chatbot for customer support</p>
+            </div>
+          </a>
+        </div>
+
+        <div className="cursor-pointer relative group transition-all duration-300 hover:scale-105 z-10 hover:z-20">
+          <a href="https://www.youtube.com/watch?v=jOEgU_w7O3I" target='_blank' rel="noreferrer">
+            <img
+              src={electronicmaster}
+              alt="Storyforest"
+              className="w-full h-[200px] object-cover rounded-md shadow-md"
+            />
+
+            <div className="absolute inset-0 bg-gray-800 bg-opacity-70 rounded-md opacity-0 group-hover:opacity-80 transition-opacity duration-300 flex flex-col justify-center p-3 text-white">
+              <h3 className="font-bold text-lg mb-1">Electronic Master</h3>
+              <p className="text-sm"> An Android electronics shop app with category browsing, text and image-based advanced search, and shopping cart functionality</p>
+            </div>
+          </a>
+        </div>
+
         <div className="cursor-pointer relative group transition-all duration-300 hover:scale-105 z-10 hover:z-20">
           <a href="https://storyforest.online/" target='_blank' rel="noreferrer">
             <img
